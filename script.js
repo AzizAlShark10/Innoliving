@@ -211,7 +211,7 @@ const I18N = {
     "footer.privacy": "Privacy",
     "footer.terms": "Terms",
     "footer.contact":
-      '<a class="btn btn-whatsapp" href="#" onclick="openWhatsApp(); return false;"><img src="visuals/Whatsapp-icon.png" alt="WhatsApp" />WhatsApp</a><br><a class="btn btn-mail" href="mailto:info@innoloving-co.com"><img src="visuals/Mail-icon.png" alt="Mail"/>info@innoloving-co.com</a>',
+      '<a class="btn btn-whatsapp" href="#" onclick="openWhatsApp(); return false;"><img src="visuals/Whatsapp-icon.png" alt="WhatsApp" />WhatsApp</a><br><a class="btn btn-mail" href="mailto:info@innoliving-co.com"><img src="visuals/Mail-icon.png" alt="Mail"/>info@innoliving-co.com</a>',
     "footer.copy": "©",
     "footer.rights": "All rights reserved.",
     "c-address": "Saudi Arabia - Dhahran",
@@ -418,7 +418,7 @@ const I18N = {
     "footer.privacy": "الخصوصية",
     "footer.terms": "الشروط",
     "footer.contact":
-      '<a class="btn btn-whatsapp" href="#" onclick="openWhatsApp(); return false;"><img src="visuals/Whatsapp-icon.png" alt="واتساب"  />واتساب</a><br><a class="btn btn-mail" href="mailto:info@innoloving-co.com"><img src="visuals/Mail-icon.png" alt="Mail" />info@innoloving-co.com</a>',
+      '<a class="btn btn-whatsapp" href="#" onclick="openWhatsApp(); return false;"><img src="visuals/Whatsapp-icon.png" alt="واتساب"  />واتساب</a><br><a class="btn btn-mail" href="mailto:info@innoliving-co.com"><img src="visuals/Mail-icon.png" alt="Mail" />info@innoliving-co.com</a>',
     "footer.copy": "©",
     "footer.rights": "جميع الحقوق محفوظة.",
   },
