@@ -1,0 +1,20 @@
+1- add splash screen images ---> Done
+
+After some Discussion what to add and modify in the website
+
+2- modify the packages (will add more info) ---> Done
+3- hiding and adding some sections  ---> Done
+
+Can be done after buying the domain
+
+4- making the contact us form working ---> Done
+5- create a domain and host the website ---> Done
+6- create info@ email  ---> Done
+
+After getting video and company address
+
+7- add video to the website (will decide the location later)
+8- adding missing logo locations ---> Done
+9- adding company info at the bottom ---> Done
+
+Pending Tasks ---> 7
