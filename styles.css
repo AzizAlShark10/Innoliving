@@ -77,6 +77,15 @@ a:hover {
 .container {
   width: min(1120px, 92vw);
   margin: 0 auto;
+  padding-top: 5vh;
+
+  @media (max-width: 767px) {
+    padding-top: 2vh;
+  }
+
+  @media (max-width: 480px) {
+    padding-top: 0vh;
+  }
 }
 
 .section {
@@ -247,7 +256,7 @@ p.subhead {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: white;
+  background: rgb(255, 255, 255);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid #eef1f5;
 }
@@ -978,7 +987,7 @@ html[dir="rtl"] .step-num {
   gap: 18px;
 }
 
-@media (min-width:980px) {
+@media (min-width:1024px) {
   .packages-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -989,6 +998,7 @@ html[dir="rtl"] .step-num {
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 20px;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1007,7 +1017,7 @@ html[dir="rtl"] .step-num {
 
 .include {
   color: black;
-  background-color: hsl(0, 0%, 75%);
+  background-color: hsl(0, 0%, 70%);
   padding: 10px;
   width: 100%;
   border-top-left-radius: 12px;
@@ -1015,11 +1025,12 @@ html[dir="rtl"] .step-num {
 }
 
 .includes {
-  background: hsl(0, 0%, 85%);
+  background: hsl(0, 0%, 90%);
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 0;
   padding-bottom: 15px;
+  margin-top: 5%;
   font-weight: 600;
 }
 
@@ -1031,6 +1042,7 @@ html[dir="rtl"] .step-num {
 
 .includes ul li {
   width: 100%;
+  list-style-type: circle;
 }
 
 .includes ul li span.quantity {
@@ -1051,17 +1063,21 @@ html[lang="ar"] .dfa {
   margin-left: 30px;
 }
 
+
+
 .includes ul li .unit {
   width: 40px;
   height: 20px;
   text-align: center;
-  padding: 10px 12px;
-  background-color: hsl(0, 0%, 95%);
-  border: 1px solid var(--border);
+  padding: 10px 18px;
+  color: hsl(0, 0%, 10%);
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -1290,7 +1306,9 @@ input[type="radio"]:checked+.chip {
   display: flex;
   flex-direction: column;
   align-items: start;
-  padding: 0 10px;
+  padding: 0px;
+  gap: 10px;
+  font-weight: 700;
 }
 
 .footer-brand p {
@@ -1329,14 +1347,6 @@ input[type="radio"]:checked+.chip {
   .footer-list {
     margin-top: 35px;
   }
-}
-
-
-.footer-brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 700;
 }
 
 .badges {
