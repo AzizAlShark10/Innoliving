@@ -166,77 +166,109 @@ p.subhead {
   margin-top: 10px;
 }
 
-/* Shared base styles for both buttons */
-.btn-whatsapp,
 .btn-mail {
-  width: 300px;
+  width: 100%;
+  max-width: 225px;
   border: solid 1px transparent;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: hsl(210, 55%, 60%);
+  background-color: hsl(210, 50%, 60%);
   color: white;
   font-size: 16px;
-  padding: 12px 20px;
+  padding: 10px 20px;
   border-radius: 50px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); */
   text-decoration: none;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect (optional) */
+.btn-mail:hover {
+  background-color: hsl(210, 50%, 50%);
+}
+
+.btn-mail img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 767px) {
+  .btn-mail {
+    font-size: 14px;
+    padding: 7px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-mail {
+    width: 190px;
+  }
 }
 
 .btn-whatsapp {
-  width: 185px;
-  background-color: hsl(125, 35%, 45%);
+  position: fixed;
+  bottom: 5%;
+  right: 30px;
+  background-color: #25D366;
   color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 80px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
 }
 
-.btn-mail {
-  background-color: hsl(210, 55%, 60%);
-  color: white;
+.btn-whatsapp:hover {
+  background-color: #1ebe5d;
 }
 
-/* Icon styles */
-.btn-whatsapp img,
-.btn-mail img {
-  width: 24px;
-  height: 24px;
+.btn-whatsapp i.ph {
+  font-size: 50px;
 }
 
-/* RESPONSIVE TWEAKS */
-@media (min-width: 480px) {
-
-  .btn-whatsapp,
-  .btn-mail {
-    max-width: 265px;
-    font-size: 17px;
-    padding: 14px 24px;
-  }
-
+@media (max-width: 1024px) {
   .btn-whatsapp {
-    max-width: 185px;
+    padding: 8px;
+    bottom: 2.5%;
+    right: 15px;
   }
 
-  .btn-whatsapp img,
-  .btn-mail img {
-    width: 26px;
-    height: 26px;
-  }
-}
-
-@media (min-width: 768px) {
-
-  .btn-whatsapp,
-  .btn-mail {
-    font-size: 18px;
-    max-width: 400px;
-  }
-
-  .btn-whatsapp img,
-  .btn-mail img {
-    width: 28px;
-    height: 28px;
+  .btn-whatsapp i {
+    font-size: 34px;
   }
 }
 
+@media (max-width: 767px) {
+  .btn-whatsapp {
+    padding: 10px;
+    bottom: 10%;
+    right: 15px;
+  }
+
+  .btn-whatsapp i {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-whatsapp {
+    right: 20px;
+    bottom: 8.5%;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .btn-whatsapp i {
+    font-size: 40px;
+    color: white;
+  }
+}
 
 .btn-ghost {
   color: var(--text);

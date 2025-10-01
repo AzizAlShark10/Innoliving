@@ -211,7 +211,7 @@ const I18N = {
     "footer.privacy": "Privacy",
     "footer.terms": "Terms",
     "footer.contact":
-      '<a class="btn btn-whatsapp" href="#" onclick="openWhatsApp(); return false;"><img src="visuals/Whatsapp-icon.png" alt="WhatsApp" />WhatsApp</a><br><a class="btn btn-mail" href="mailto:info@innoliving-co.com"><img src="visuals/Mail-icon.png" alt="Mail"/>info@innoliving-co.com</a>',
+      '<a class="btn-whatsapp" href="#" onclick="openWhatsApp(); return false;"><i class="ph ph-whatsapp-logo"></i></a><a class="btn btn-mail" href="mailto:info@innoliving-co.com"><img src="visuals/Mail-icon.png" alt="Mail"/>Email Us</a>',
     "footer.copy": "©",
     "footer.rights": "All rights reserved.",
     "c-address": "Saudi Arabia - Dhahran",
@@ -562,5 +562,5 @@ if (yearEl) yearEl.textContent = new Date().getFullYear();
 })();
 
 function openWhatsApp() {
-  window.open("https://wa.me/+966504825572", "_blank");
+  window.open("https://wa.me/+966575020802", "_blank");
 }
