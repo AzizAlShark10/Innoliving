@@ -183,10 +183,6 @@ p.subhead {
   transition: background-color 0.3s ease;
 }
 
-/* Hover effect (optional) */
-.btn-mail:hover {
-  background-color: hsl(210, 50%, 50%);
-}
 
 .btn-mail img {
   width: 20px;
