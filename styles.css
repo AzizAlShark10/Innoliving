@@ -206,10 +206,18 @@ p.subhead {
   }
 }
 
+@media (max-width: 480px) {
+  html[lang="ar"] .foot-book {
+    width: 150px;
+  }
+}
+
+
 .btn-whatsapp {
   position: fixed;
   bottom: 5%;
   right: 30px;
+  left: auto;
   background-color: #25D366;
   color: white;
   padding: 15px;
@@ -232,15 +240,25 @@ p.subhead {
   font-size: 50px;
 }
 
+html[lang="ar"] .btn-whatsapp {
+  left: 30px;
+  right: auto;
+}
+
 @media (max-width: 1024px) {
   .btn-whatsapp {
-    padding: 8px;
-    bottom: 2.5%;
-    right: 15px;
+    padding: 12px;
+    bottom: 3.5%;
+    right: 20px;
   }
 
-  .btn-whatsapp i {
-    font-size: 34px;
+  html[lang="ar"] .btn-whatsapp {
+    left: 20px;
+    right: auto;
+  }
+
+  .btn-whatsapp i.ph {
+    font-size: 40px;
   }
 }
 
@@ -251,24 +269,35 @@ p.subhead {
     right: 15px;
   }
 
-  .btn-whatsapp i {
-    font-size: 30px;
+  html[lang="ar"] .btn-whatsapp {
+    left: 15px;
+    right: auto;
+  }
+
+  .btn-whatsapp i.ph {
+    font-size: 34px;
   }
 }
 
 @media (max-width: 480px) {
   .btn-whatsapp {
-    right: 20px;
-    bottom: 8.5%;
-    border-radius: 50%;
     padding: 10px;
+    border-radius: 50%;
+    bottom: 8%;
+    right: 20px;
   }
 
-  .btn-whatsapp i {
-    font-size: 40px;
+  html[lang="ar"] .btn-whatsapp {
+    left: 20px;
+    right: auto;
+  }
+
+  .btn-whatsapp i.ph {
+    font-size: 30px;
     color: white;
   }
 }
+
 
 .btn-ghost {
   color: var(--text);

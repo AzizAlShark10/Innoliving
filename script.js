@@ -418,7 +418,7 @@ const I18N = {
     "footer.privacy": "الخصوصية",
     "footer.terms": "الشروط",
     "footer.contact":
-      '<a class="btn btn-whatsapp" href="#" onclick="openWhatsApp(); return false;"><img src="visuals/Whatsapp-icon.png" alt="واتساب"  />واتساب</a><br><a class="btn btn-mail" href="mailto:info@innoliving-co.com"><img src="visuals/Mail-icon.png" alt="Mail" />info@innoliving-co.com</a>',
+      '<a class="btn-whatsapp" href="#" onclick="openWhatsApp(); return false;"><i class="ph ph-whatsapp-logo"></i></a><a class="btn btn-mail" href="mailto:info@innoliving-co.com" style="width:150px";"><img src="visuals/Mail-icon.png" alt="Mail"/>راسلنا</a>',
     "footer.copy": "©",
     "footer.rights": "جميع الحقوق محفوظة.",
   },
