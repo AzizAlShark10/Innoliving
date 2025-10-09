@@ -1419,3 +1419,20 @@ input[type="radio"]:checked+.chip {
   text-align: center;
   color: var(--muted);
 }
+/* 1) Cap the stage so it never gets wider than the image's natural width */
+.splash-stage {
+  max-width: 1024px;   /* set this to BG1.jpeg's intrinsic width (e.g., 1024) */
+  margin: 0 auto;      /* center the stage */
+}
+
+/* 2) Make the image responsive inside the capped container */
+.splash-stage img {
+  width: 100%;         /* fill the container */
+  height: auto;        /* keep aspect ratio */
+  display: block;
+}
+
+/* Optional: spacing/stacking for slides */
+.splash-slide {
+  /* your existing styles */
+}
