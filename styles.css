@@ -1421,7 +1421,7 @@ input[type="radio"]:checked+.chip {
 }
 /* 1) Cap the stage so it never gets wider than the image's natural width */
 .splash-stage {
-  max-width: 1024px;   /* set this to BG1.jpeg's intrinsic width (e.g., 1024) */
+  max-width: 2048px;   /* set this to BG1.jpeg's intrinsic width (e.g., 1024) */
   margin: 0 auto;      /* center the stage */
 }
 
