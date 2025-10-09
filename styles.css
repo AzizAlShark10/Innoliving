@@ -1419,11 +1419,3 @@ input[type="radio"]:checked+.chip {
   text-align: center;
   color: var(--muted);
 }
-
-.splash-stage img {
-  width: 800px;          /* pick a fixed width or use the image’s intrinsic width */
-  height: auto;          /* preserve aspect ratio */
-  max-width: 100%;       /* optional: avoid overflow on very small screens */
-  display: block;
-  margin: 0 auto;        /* center */
-}
