@@ -1423,7 +1423,7 @@ input[type="radio"]:checked+.chip {
 /* One normal background for the first section */
 #home.hero-splash {
   position: relative;
-  background: url('visuals/BG3.jpeg') center/cover no-repeat; /* change image if needed */
+  background: url('visuals/BG4.jpeg') center/cover no-repeat; /* change image if needed */
   min-height: 70vh; /* adjust if you want taller/shorter */
   display: flex;
   flex-direction: column;
