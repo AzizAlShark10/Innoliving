@@ -1437,25 +1437,3 @@ input[type="radio"]:checked+.chip {
 #home .hero-overlay {
   display: none !important;
 }
-
-/* Center the header content nicely */
-#home .splash-header.container {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 4rem 1rem;
-}
-
-/* Optional: tweak title and CTA spacing */
-#home .splash-title {
-  margin-bottom: 1rem;
-}
-#home .splash-ctas {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
