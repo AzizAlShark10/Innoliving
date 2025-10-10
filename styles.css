@@ -1420,18 +1420,18 @@ input[type="radio"]:checked+.chip {
   color: var(--muted);
 }
 
-/* Make the first section a normal hero with one background */
+/* One normal background for the first section */
 #home.hero-splash {
   position: relative;
-  background: url('visuals/BG4.jpeg') center/cover no-repeat;
-  min-height: 70vh; /* adjust as you like */
+  background: url('visuals/BG3.jpeg') center/cover no-repeat; /* change image if needed */
+  min-height: 70vh; /* adjust if you want taller/shorter */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff; /* assumes light text on dark background */
+  color: #fff;
 }
 
-/* Hide slideshow-related elements */
+/* Remove splash mechanics */
 #home .splash-stage,
 #home .splash-dots,
 #home .hero-overlay {
